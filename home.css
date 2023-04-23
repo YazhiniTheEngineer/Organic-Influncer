@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('/img/grass.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 95vh;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-size: 16px;
+}
+
+.navigation{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo-text{
+    margin-left: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.brand{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+
+.brand-text{
+    font-size: 4rem;
+}
+
+.thumbnails{
+    width:5%;
+    margin-left: 20px;
+}
+
+.mission-section,.organic-influncer-section,.product-section{
+    padding-top: 3%;
+    text-align: center;
+}
+
+hr{
+    width: 15%;
+}
+
+.hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission, .organic-influncer, .product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mission-img{
+    display: flex;
+}
+
+.product{
+    align-items: flex-start;
+}
+
+.product-desc{
+    width: 80%;
+}
+
+.footer-section{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.col .thumbnails{
+    width: 10%;
+}
+
+.col{
+    padding: 1%;
+}
